@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useState } from 'react'
 import MainLayout from '../layouts/MainLayout'
 import DrinkCard from '../components/DrinkCard'
 import LoadingIndicator from '../components/LoadingIndicator'
