@@ -1,12 +1,33 @@
-# React + Vite
+# Cocktails apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In order to run the project you'll need to:
+npm install
+npm run dev
 
-Currently, two official plugins are available:
+In this exercise you'll need to work with the following APIs:
+https://www.thecocktaildb.com/api.php
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Base API is given in .env file, so you'll not need to worry about it
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Exercise 1
+Warmup
+Project is not loading. 
+Can you find out the reason?
+
+# Exercies 2
+Navigation
+Link to 'ingredients' doesn't work. 
+Can you find the reason and fix it?
+
+# Exercise 3
+Hooks - 
+Once we access ingredients, we would like to click on it and routed to a new page which will show drinks by this ingredient. Unfortunately this page is not working. Please help us to fix it.
+Use 'filter' api: 
+
+# Exercise 4
+Code review and hooks 2 -
+Now we would like to search a drink by ingredient or name (Home page). 
+1. We would like the search to be focused, but unfortunately it doesn't work
+2. Unfortunately, it doesn't work. Can you fix this?
+3. Code review - what do you think of this code? How would you improve it? What tests would you write?

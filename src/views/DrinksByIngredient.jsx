@@ -7,30 +7,10 @@ import LoadingIndicator from '../components/LoadingIndicator'
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 
 export default function DrinksByIngredient() {
-  const { ingredient } = useParams()
-  const [drinks, setDrinks] = useState([])
+  const ingredient = ''
+  const drinks = []
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-
-  
-  const fetchDrinks = async () => {
-    setLoading(true)
-    setError('')
-    try {
-      const response = await fetch(`${API_BASE_URL}/filter.php?i=${ingredient}`)
-      const data = await response.json()
-      setDrinks(data.drinks || [])
-      setLoading(false)
-    } catch (error) {
-      console.error('Error fetching drinks:', error)
-      setError('Error fetching drinks')
-      setLoading(false)
-    }
-  }
-
-  useEffect(() => {
-    fetchDrinks()
-  }, [ingredient])
 
   return (
     <MainLayout>
