@@ -1,7 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-
-
 export default function SearchForm({ search, setSearch, handleSearch }) {
 
   const onSearch = (event) => {
