@@ -1,8 +1,10 @@
 # Cocktails apps
 
 In order to run the project you'll need to:
+```bash
 npm install
 npm run dev
+```
 
 In this exercise you'll need to work with the following APIs:
 https://www.thecocktaildb.com/api.php
