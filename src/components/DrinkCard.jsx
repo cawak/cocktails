@@ -1,4 +1,4 @@
-export default function DrinkCard({ drink }) {
+export function DrinkCard({ drink }) {
   return (
     <div className="bg-gray-800 text-white rounded overflow-hidden shadow-lg">
       <img className="w-full h-48 object-cover" src={drink.strDrinkThumb} alt="Drink" />

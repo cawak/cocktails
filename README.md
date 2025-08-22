@@ -23,7 +23,7 @@ Can you find the reason and fix it?
 # Exercise 3
 Hooks - 
 Once we access ingredients, we would like to click on it and routed to a new page which will show drinks by this ingredient. Unfortunately this page is not working. Please help us to fix it.
-Use 'filter' api: 
+Use 'filter' api aka www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka
 
 # Exercise 4
 Code review and hooks 2 -
