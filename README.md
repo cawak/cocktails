@@ -31,5 +31,5 @@ Use 'filter' api aka www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka
 ## Code review and hooks 2
 Now we would like to search a drink by ingredient or name (Home page). 
 1. We would like the search to be focused, but unfortunately it doesn't work
-2. Unfortunately, it doesn't work. Can you fix this?
+2. Unfortunately, search itself doesn't work. Can you fix this?
 3. Code review - what do you think of this code? How would you improve it? What tests would you write?
