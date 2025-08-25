@@ -33,4 +33,5 @@ Now we would like to search a drink by ingredient or name (Home page).
 1. We would like the search to be focused, but unfortunately it doesn't work
 2. Unfortunately, search itself doesn't work. Can you fix this?
 3. Can you explain how Home and SearchForm components work? How do they interract?
-4. Code review - what do you think of this code? How would you improve it? What tests would you write?
+4. What tests would you write? When should we run them?
+5. Code review - what do you think of this code? How would you improve it? 
