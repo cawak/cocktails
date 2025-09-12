@@ -30,7 +30,7 @@ Use 'filter' api aka www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka
 # Exercise 4
 ## Code review and hooks 2
 Now we would like to search a drink by ingredient or name (Home page). 
-1. We would like the search to be focused, but unfortunately it doesn't work
+1. We would like the search to be focused on search input, but unfortunately it doesn't work
 2. Unfortunately, search itself doesn't work. Can you fix this?
 3. Can you explain how Home and SearchForm components work? How do they interact?
 4. What tests would you write? When should we run them?
