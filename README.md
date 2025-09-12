@@ -17,7 +17,7 @@ Base API is given in .env file, so you'll not need to worry about it
 Project is not loading. 
 Can you find out the reason?
 
-# Exercies 2
+# Exercise 2
 ## Navigation
 Link to 'ingredients' doesn't work. 
 Can you find the reason and fix it?
@@ -32,6 +32,6 @@ Use 'filter' api aka www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka
 Now we would like to search a drink by ingredient or name (Home page). 
 1. We would like the search to be focused, but unfortunately it doesn't work
 2. Unfortunately, search itself doesn't work. Can you fix this?
-3. Can you explain how Home and SearchForm components work? How do they interract?
+3. Can you explain how Home and SearchForm components work? How do they interact?
 4. What tests would you write? When should we run them?
 5. Code review - what do you think of this code? How would you improve it? 
