@@ -22,10 +22,18 @@ Can you find out the reason?
 Link to 'ingredients' doesn't work. 
 Can you find the reason and fix it?
 
+Hint:
+Mind the 'ingredients'. The path of `ingredient/:ingredient` is correct and should not be changed
+
 # Exercise 3
 ## Hooks
 Once we access ingredients, we would like to click on it and routed to a new page which will show drinks by this ingredient. Unfortunately this page is not working. Please help us to fix it.
-Use 'filter' api aka www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka
+Use 'filter' api aka https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka (mind the `https://` prefix)
+
+Hint
+1. At first lets identify the components participating in the process
+2. Now we can set ingredient value correctly
+3. Once we obtained 'ingredient', we are ready to fetch the relevant data
 
 # Exercise 4
 ## Code review and hooks 2
